@@ -1,0 +1,32 @@
+{
+  "name": "feathersjs-logout-callback-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "build:client": "webpack-cli --mode production --progress",
+    "start": "node src/server",
+    "watch": "webpack-cli -w --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/authentication": "^2.1.5",
+    "@feathersjs/authentication-jwt": "^2.0.0",
+    "@feathersjs/authentication-local": "^1.2.1",
+    "@feathersjs/express": "^1.2.2",
+    "@feathersjs/feathers": "^3.1.4",
+    "@feathersjs/socketio": "^3.2.1",
+    "feathers-memory": "^2.1.1"
+  },
+  "devDependencies": {
+    "@feathersjs/authentication-client": "^1.0.2",
+    "@feathersjs/socketio-client": "^1.1.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "socket.io-client": "^2.1.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  }
+}
